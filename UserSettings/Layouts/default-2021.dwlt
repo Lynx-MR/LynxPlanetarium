@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 358
+  controlID: 82
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 359
+  controlID: 83
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 61
+  controlID: 84
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 62
+  controlID: 85
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 459
     height: 598
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -239,8 +239,8 @@ MonoBehaviour:
     y: 0
     width: 813
     height: 598
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: BuildPlayerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -295,16 +295,16 @@ MonoBehaviour:
     y: 0
     width: 648
     height: 939
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 641, y: 601}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 23}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -629,9 +629,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.110352814, y: 1.951889, z: -0.2746205}
+    m_Target: {x: -0.02119413, y: 1.3327869, z: 0.57523364}
     speed: 2
-    m_Value: {x: 0.110352814, y: 1.951889, z: -0.2746205}
+    m_Value: {x: -0.02119413, y: 1.3327869, z: 0.57523364}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -678,13 +678,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.18109018, y: -0.05718509, z: 0.010591662, w: 0.9818071}
+    m_Target: {x: 0.134922, y: 0.09085023, z: -0.0123789, w: 0.98666626}
     speed: 2
-    m_Value: {x: 0.18107921, y: -0.057181627, z: 0.01059102, w: 0.9817477}
+    m_Value: {x: 0.13639359, y: 0.09082606, z: -0.012514437, w: 0.98640305}
   m_Size:
-    m_Target: 0.22583316
+    m_Target: 0.92717826
     speed: 2
-    m_Value: 0.22583316
+    m_Value: 0.8872519
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -741,9 +741,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7898ffffc498ffffb2a1ffffeaa4ffff36a5ffff78abffff9aadffffe6adffffd4b6ffff10c2ffff5cc2ffff50cbffffd6e2ffff20e3ffff46e8ffff34ebffff78ebffff88f3ffff2afbffffaa5a0000ba5a0000fc5a00007c5b00008a5b000006680000ae6800006e690000166b0000526d0000c06d0000c46d0000ca6d0000006f0000046f0000027f0000ec800000fa800000508100005c810000ca960000749800006a990000209b0000249b00002a9b0000809b00008c9b0000609c0000649c0000
+      m_SelectedIDs: 2edd0000
+      m_LastClickedID: 56622
+      m_ExpandedIDs: fe8cffff448dfffffa95ffffaeb7ffffb6b8ffff20be000058be0000a6be0000aabe0000c0be0000c4be0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -902,22 +902,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Demo/Scripts
+    - Packages/com.lynx.core/XRI
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Demo/Scripts
+  - Packages/com.lynx.core/XRI
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Dev\Documents\Project\Demo_Planetarium
+  m_LastProjectPath: C:\Users\Dev\Documents\UnityProject\_Github\LynxPlanetarium
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 4c850000
-    m_LastClickedID: 34124
-    m_ExpandedIDs: 000000000e6f00003a6f00003c6f0000406f0000506f0000526f000044850000508500008e8500009a8c000000ca9a3bffffff7f
+    m_SelectedIDs: 74ce0000
+    m_LastClickedID: 52852
+    m_ExpandedIDs: 00000000f0bd000052ce000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -945,7 +945,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,15 +976,15 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000e0a50000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: RecenterScene
-      m_OriginalName: RecenterScene
+      m_Name: Lynx
+      m_OriginalName: Lynx
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 18142
+      m_UserData: 48626
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1087,7 +1087,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 3cbf0000
     m_LastClickedID: 48956
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1115,7 +1115,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1300,8 +1300,8 @@ MonoBehaviour:
   m_SearchText: 
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 06ed37fc
-    m_LastClickedID: -63443706
+    m_SelectedIDs: 272fd499
+    m_LastClickedID: -1714147545
     m_ExpandedIDs: a01a5fa6000000004f0a7f2ec53aba5a
     m_RenameOverlay:
       m_UserAcceptedRename: 0
