@@ -50,7 +50,7 @@ namespace Lynx.Planetarium
         /// </summary>
         public void ResetSceneTransform()
         {
-            planets[0].GetComponent<Rigidbody>().velocity = Vector3.zero;
+            planets[0].GetComponent<Rigidbody>().linearVelocity = Vector3.zero;
             planets[0].GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             planets[0].transform.rotation = Quaternion.identity;
             int index = 0;

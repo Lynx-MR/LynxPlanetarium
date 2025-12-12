@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
+
 
 /// <summary>
 /// Rotates this object around the specified center transform, as well as around itself on the specified axis. 
@@ -36,7 +36,7 @@ public class PlanetMover : MonoBehaviour
     /// </summary>
     private Vector3 dir;
 
-    [SerializeField] private XRGrabInteractable xRGI = null;
+    [SerializeField] private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable xRGI = null;
 
     private void Start()
     {
