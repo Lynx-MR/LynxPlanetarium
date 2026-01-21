@@ -2402,8 +2402,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lynx.HandMenu_Handler
   handedness: 2
-  LookAtThreashold: 15
-  LookUpThreashold: 20
+  LookAtThreashold: 60
+  LookUpThreashold: 80
   HandMenu: {fileID: 1358024555826094989}
   PanelOffset: {x: 0.12, y: 0.06}
 --- !u!114 &8557787313464663776
